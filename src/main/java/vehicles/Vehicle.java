@@ -1,6 +1,6 @@
 package vehicles;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements IDrive {
 
     protected double price;
     protected String colour;

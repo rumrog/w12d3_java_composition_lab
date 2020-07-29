@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfcf8c6c-7e19-4a3a-af57-01a6926e8bec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/Dealership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IBuy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/ElectricMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/GripType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Tyres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/VehicleEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/IDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/behaviours/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/behaviours/DealershipTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/components/ElectricMotorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/components/TyresTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/components/VehicleEngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vehicles/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicles/ElectricCarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vehicles/VehicleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/Dealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IBuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IBuy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/IDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/IDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/behaviours/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/behaviours/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/behaviours/DealershipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/behaviours/DealershipTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,16 +68,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TyresTest">
-    <configuration name="All in w12d3_java_composition_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DealershipTest.hasVehicles">
+    <configuration name="CustomerTest.hasVehicles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w12d3_java_composition_lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviours.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="behaviours" />
+      <option name="MAIN_CLASS_NAME" value="behaviours.CustomerTest" />
+      <option name="METHOD_NAME" value="hasVehicles" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.hasEngine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_composition_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviours.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="behaviours" />
+      <option name="MAIN_CLASS_NAME" value="behaviours.DealershipTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DealershipTest.hasVehicles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_composition_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviours.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="behaviours" />
+      <option name="MAIN_CLASS_NAME" value="behaviours.DealershipTest" />
+      <option name="METHOD_NAME" value="hasVehicles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElectricCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w12d3_java_composition_lab" />
       <extension name="coverage">
         <pattern>
@@ -96,39 +125,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vehicles" />
-      <option name="MAIN_CLASS_NAME" value="vehicles.CarTest" />
-      <option name="METHOD_NAME" value="hasEngine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest.hasTyres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="w12d3_java_composition_lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vehicles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vehicles" />
-      <option name="MAIN_CLASS_NAME" value="vehicles.CarTest" />
-      <option name="METHOD_NAME" value="hasTyres" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElectricMotorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="w12d3_java_composition_lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vehicles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="components" />
-      <option name="MAIN_CLASS_NAME" value="components.ElectricMotorTest" />
+      <option name="MAIN_CLASS_NAME" value="vehicles.ElectricCarTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DealershipTest.hasVehicles" />
+        <item itemvalue="JUnit.DealershipTest" />
+        <item itemvalue="JUnit.ElectricCarTest" />
+        <item itemvalue="JUnit.CustomerTest.hasVehicles" />
         <item itemvalue="JUnit.TyresTest" />
-        <item itemvalue="JUnit.ElectricMotorTest" />
-        <item itemvalue="JUnit.All in w12d3_java_composition_lab" />
-        <item itemvalue="JUnit.CarTest.hasTyres" />
-        <item itemvalue="JUnit.CarTest.hasEngine" />
       </list>
     </recent_temporary>
   </component>

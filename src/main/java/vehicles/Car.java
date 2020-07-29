@@ -23,5 +23,9 @@ public class Car extends Vehicle {
         return this.tyres;
     }
 
+    public String makeNoise(String data) {
+        return "Please work.";
+    }
+
 
 }
