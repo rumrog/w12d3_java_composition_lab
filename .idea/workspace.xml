@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfcf8c6c-7e19-4a3a-af57-01a6926e8bec" name="Default Changelist" comment="" />
+    <list default="true" id="dfcf8c6c-7e19-4a3a-af57-01a6926e8bec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/Dealership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IBuy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/ElectricMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/GripType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/Tyres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/VehicleEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/IDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/behaviours/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/behaviours/DealershipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/components/ElectricMotorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/components/TyresTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/components/VehicleEngineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicles/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vehicles/VehicleTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +33,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,8 +51,20 @@
     </option>
   </component>
   <component name="ProjectId" id="1fMSusLT4QhSuJ35mAmCgOp5GgI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="vehicles" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,6 +78,87 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.TyresTest">
+    <configuration name="All in w12d3_java_composition_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_composition_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.hasEngine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_composition_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vehicles" />
+      <option name="MAIN_CLASS_NAME" value="vehicles.CarTest" />
+      <option name="METHOD_NAME" value="hasEngine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.hasTyres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_composition_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vehicles" />
+      <option name="MAIN_CLASS_NAME" value="vehicles.CarTest" />
+      <option name="METHOD_NAME" value="hasTyres" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElectricMotorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_composition_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="components" />
+      <option name="MAIN_CLASS_NAME" value="components.ElectricMotorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TyresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_composition_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="components" />
+      <option name="MAIN_CLASS_NAME" value="components.TyresTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TyresTest" />
+        <item itemvalue="JUnit.ElectricMotorTest" />
+        <item itemvalue="JUnit.All in w12d3_java_composition_lab" />
+        <item itemvalue="JUnit.CarTest.hasTyres" />
+        <item itemvalue="JUnit.CarTest.hasEngine" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -51,5 +171,16 @@
       <updated>1596026694024</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
